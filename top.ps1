@@ -1,0 +1,1 @@
+While(1) {ps | sort -des cpu | select -f 22 | ft -a; sleep 5; cls}
